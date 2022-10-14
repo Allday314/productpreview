@@ -1,50 +1,84 @@
 body {
-	background-color: hsl(30, 38%, 92%);
+  background-color: hsl(30, 38%, 92%);
     min-height: 100vh;
     display: grid;
-    place-content: center ;
+    place-content: center;
 }
 
+.container {
+  display:  flex;
+  align-items: center;
+}
+
+img {
+  width: 280px;
+  height: 435px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
 
 .parfum {
-	width: 320px;
-	border: 5px white;
-	padding: 10px;
-	margin: 0;
-}
-
-
-.credit {
-  width: 320px;
-  border: 5px solid gray;
-  padding: 50px;
-  margin: 0px;
+  background-color: #fff;
+  width: 215px;
+  height: 390px;
+  border: 5px white;
+  padding: 25px;
+  margin: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .parfum p.start {
-	font-size: 14px;
-	font-family: 'Montserrat', sans-serif;
-	color: #8A8A8A;
-	letter-spacing: 0.2em;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: #8A8A8A;
+  letter-spacing: 0.2em;
 }
 
 
 .parfum p.middle {
-	font-size: 14px;
-	font-family: 'Montserrat', sans-serif;
-	color: #8A8A8A
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 23px;
+  color: #8A8A8A
 }
-
 
 
 .parfum h1 {
-	font-family: 'Fraunces', serif;
+  font-family: 'Fraunces', serif;
 }
 
 
-img {
-	width: 100%;
+.money {
+  font-size: 26px;
+  font-family: 'Fraunces', serif;
+  color: green;
 }
+
+.moneym {
+  color: #8A8A8A;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.parfum p.cart {
+  color: #fff;
+  background-color: darkgreen;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  margin: -1;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
 
 
 
